@@ -1,8 +1,8 @@
 /*index*/
 @media (max-width: 1199.98px) {
 	* {
-		padding: 0px;
-	}
+		margin : 0;
+	padding : 0;}
 
 	html {
 		min-height: 100%;
@@ -35,20 +35,11 @@
 		max-inline-size: 48em;
 	}
 
-	body {
-		padding: 0px;
-		height: 100%;
-		font-family: 'Roboto', sans-serif;
-		line-height: 1;
-		margin: 0;
-		min-block-size: 10vh;
-	}
-
 
 
 	.header {
 		padding: 10px;
-		text-align: center;
+		text-align: baseline;
 		text-decoration: none;
 		box-shadow: inset 0 -1px 0 hsla(0, 0%, 100%, 0.4);
 		font-family: sans-serif;
@@ -63,7 +54,7 @@
 		left: 0;
 		display: inline-block;
 		vertical-align: auto;
-		padding: 1px;
+		padding: 10px;
 		background: #f12711;
 		background: -webkit-linear-gradient(to right, #f5af19, #f12711);
 		background: linear-gradient(to right, #f5af19, #f12711);
@@ -117,17 +108,17 @@
 
 
 	body {
-		margin: 0;
+		margin: 10;
 		margin-bottom: 40px;
 		margin: 0;
-		padding: 10px;
+		padding: 0px;
 		background-size: cover;
 		background-repeat: no-repeat;
 		background-attachment: fixed;
 		position: absolute;
 		font-family: 'Lato', sans-serif;
 		font-weight: 10;
-		font-size: 1.1 rem;
+		
 	}
 
 	body:after {
@@ -146,17 +137,17 @@
 	}
 
 	.imagenes-de-index {
-		width: 1000px;
-		height: 500px;
+		width: 95%;
 		margin: auto;
 		overflow: hidden;
 	}
 
 	.imagenes-de-index ul {
 		display: flex;
-		padding: 5px;
+		padding: 0;
 		width: 400%;
-		animation: cambio 15s infinite linear;
+
+		animation: cambio 15s infinite alternate;
 	}
 
 	.imagenes-de-index li {
@@ -165,24 +156,24 @@
 	}
 
 	.imagenes-de-index img {
-		width: 70%;
+		width: 100%;
 	}
 
 	@keyframes cambio {
 		0% {
-			margin-left: 50;
+			margin-left: 0;
 		}
 
 		20% {
-			margin-left: 50;
+			margin-left: 0;
 		}
 
 		25% {
-			margin-left: -150%;
+			margin-left: -100%;
 		}
 
 		45% {
-			margin-left: -150%;
+			margin-left: -100%;
 		}
 
 		50% {
@@ -218,31 +209,25 @@
 		border: 10px solid #1aa0a7;
 	}
 
-	div.logo-image {
-		height: 75px;
-		float: left;
-
-		&:before,
-		&:after {
-			position: absolute;
-			font-size: 7em;
-			font-weight: 300;
-			line-height: 0;
-			color: #fff;
-			top: 25px;
-		}
-
-		&:before {
-			content: '\00BB';
-			left: 20px;
-		}
-
-		&:after {
-			content: '\00AB';
-			left: 34px;
-		}
-	}
-
+	div .logo-image {
+		height: 50px;
+		width: 50px;;
+		float: left;}
+.visitanos {
+	font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+		color: #070000;
+		font-size: 25px;
+		font-weight: 40;
+		text-align: center;
+		background: #ed0707;
+		margin: 10 0 20 20px;
+		overflow: hidden;
+		padding: 40px;
+		border-radius: 35px 0px 35px 0px;
+		-moz-border-radius: 35px 0px 35px 0px;
+		-webkit-border-radius: 35px 0px 35px 0px;
+		border: 10px solid #1aa0a7;
+}
 
 	/*nuestros sabores.html*/
 	main section .contenedor-de-imagenes {
@@ -331,33 +316,72 @@
 		font-weight: 20;
 		text-align: center;
 		background: #2b9521;
-		margin: 10 0 20 20px;
+		margin: 10 0 10 10px;
 		overflow: hidden;
-		padding: 40px;
-		border-radius: 20px 0px 35px 0px;
-		-moz-border-radius: 35px 0px 35px 0px;
-		-webkit-border-radius: 35px 0px 35px 0px;
-		border: 10px solid #1aa0a7;
+		padding: 20px;
+		border-radius: 10px 0px 10px 0px;
+		-moz-border-radius: 10px 0px 10px 0px;
+		-webkit-border-radius: 10px 0px 25px 0px;
+		border: 5px solid #1aa0a7;
 	}
+.caja-de-formulario{
+	font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+		color: #080000;
+		font-size: 25px;
+		font-weight: 20;
+		text-align: center;
+		background: #2b9521;
+		margin: 10 0 10 110px;
+		overflow: hidden;
+		padding: 100px;
+		border-radius: 40px 0px 35px 0px;
+		-moz-border-radius: 35px 10px 35px 10px;
+		-webkit-border-radius: 35px 40px 35px 40px;
+		border: 10px solid #1aa0a7;
+		background-image: url(../imagenes/fotodecontacto.jpg);
+}
+.cd-faq__items{
+	padding: 10px;
+}
 
 	/*footer*/
 	footer.footer {
-		padding: 10px;
+		padding: 5px;
 		text-align: center;
-		color: white;
 		text-decoration: none;
 		box-shadow: inset 0 -1px 0 hsla(0, 0%, 100%, 0.4);
 		font-family: sans-serif;
 		font-size: 10px;
 		font-weight: 10;
-		color: #ffffff;
+		color: #040000;
 		background: #2b9521;
-		position: relative;
-		bottom: 0;
+		position: sticky;
 		width: 100%;
 		height: 40px;
-		width: 100%;
 		bottom: 0;
 		left: 0;
 	}
 }
+/*Large devices (desktops, less than 1200px)*/
+
+@media (max-width: 1199.98px) { 
+	body
+ }
+
+
+
+/*Medium devices (tablets, less than 992px)*/
+
+@media (max-width: 991.98px) { ... }
+
+
+
+/*Small devices (landscape phones, less than 768px)*/
+
+@media (max-width: 767.98px) { ... }
+
+
+
+/*X-Small devices (portrait phones, less than 576px)*/
+
+@media (max-width: 575.98px) { ... }
