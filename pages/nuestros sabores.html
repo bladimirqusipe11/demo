@@ -6,6 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nuestros Sabores- Just Natural </title>
+     <!--bootstrap-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js">
     <link rel="stylesheet" href="../css/estilos.css">
 
 </head>
@@ -33,53 +36,105 @@
     </header>
     <main>
         <section>
-            <h2 class="linea-nuestros-sabores">Nuestros sabores.</h2>
-            <div class="contenedor-de-imagenes">
-                <h1>
-                    <div class="productDescription">
-
-                        <img class="sabores" src="../imagenes/sabor-mango-avena-coco.jpg" alt="">
-                    </div>
-
-                    <h3 class="produto__title">Mango, avena y coco</h3>
-                    <spam class="produto__price">Precio $380</spam>
-
-                    <div class="productDescription">
-                        <img class="sabores"  class="sabores"src="../imagenes/saborbananayfrutila2.jpg" alt="">
-                    </div>
-
-                    <h3 class="produto__title">Banana y frutilla</h3>
-                    <spam class="produto__price">Precio $350</spam>
-                    <div class="productDescription">
-                        <img class="sabores" src="../imagenes/saborbananaydurazno.webp" alt="">
- </div>
- </div>
-                    <h3 class="produto__title">Banana y durazno</h3>
-                    <spam class="produto__price">Precio $380</spam>
-<div class="contenedor-de-imagenes"> 
-                    <div class="productDescription">
-                        <img class="sabores" src="../imagenes/saborfrutosrojos.webp" alt="">
-                    </div>
-
-                    <h3 class="produto__title">Frutos rojos</h3>
-                    <spam class="produto__price">Precio $350</spam>
-                    <div class="productDescription">
-                        <img class="sabores" src="../imagenes/saborfrutosverdes.jpg" alt="">
-                    </div>
-
-                    <h3 class="produto__title">Frutos verdes</h3>
-                    <spam class="product__price">Precio $350</spam>
-                    <div class="productDescription">
-                        <img class="sabores" src="../imagenes/saborsandiaymelon.webp" alt="">
-                    </div>
-                    <div>
-                        <h3 class="product__title">Sandia y melon</h3>
-                        <spam class="product__price">Precio $350</spam>
-</div>
-</div>
-                </h1>
+           <div class="nuestros-sabores"><h2 class="linea-nuestros-sabores">Nuestros sabores.</h2></div>
+           
            
         </section>
+    <!-- grilla de tarjetas -->
+    <div class="row g-5">
+      <div class="col-12 col-md-4">
+        <article class="card effect">
+          <img
+            src="../imagenes/sabor-mango-avena-coco.jpg"
+            alt="Imagen"
+            class="card-img-top"
+          />
+          <div class="card-body">
+            <h4 class="card-title">Mango, avena y coco.</h4>
+            <a class="btn btn-primary" href="">$400</a>
+          </div>
+        </article>
+      </div>
+
+      <div class="col-12 col-md-4">
+        <article class="card effect">
+          <img
+            src="../imagenes/saborbananaydurazno.webp"
+            alt="Imagen"
+            class="card-img-top"
+          />
+          <div class="card-body">
+            <h4 class="card-title">Banana y durazno</h4>
+            <a class="btn btn-primary" href="">$400</a>
+          </div>
+        </article>
+      </div>
+
+      <div class="col-12 col-md-4">
+        <article class="card effect">
+          <img
+            src="../imagenes/bananayfrutilla4.webp"
+            alt="Imagen"
+            class="card-img-top"
+          />
+          <div class="card-body">
+            <h4 class="card-title">Banana y frutilla</h4>
+            
+            <a class="btn btn-primary" href="">$350</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+<!-- grilla de tarjetas -->
+<div class="row g-5">
+<div class="col-12 col-md-4">
+  <article class="card effect">
+    <img
+      src="../imagenes/saborfrutosrojos.webp"
+      alt="Imagen"
+      class="card-img-top"
+    />
+    <div class="card-body">
+      <h4 class="card-title">Frutos rojos</h4>
+     
+      <a class="btn btn-primary" href="">$450</a>
+    </div>
+  </article>
+</div>
+
+<div class="col-12 col-md-4">
+  <article class="card effect">
+    <img
+      src="../imagenes/saborfrutosverdes.jpg"
+      alt="Imagen"
+      class="card-img-top"
+    />
+    <div class="card-body">
+      <h4 class="card-title">Frutos verdes</h4>
+      
+      <a class="btn btn-primary" href="">$300</a>
+    </div>
+  </article>
+</div>
+
+<div class="col-12 col-md-4">
+  <article class="card effect">
+    <img
+      src="../imagenes/saborsandiaymelon.webp"
+      alt="Imagen"
+      class="card-img-top"
+    />
+    <div class="card-body">
+      <h4 class="card-title">Sandia y melon</h4>
+      
+      <a class="btn btn-primary" href="">$350</a>
+    </div>
+  </article>
+</div>
+</div>
+</section>
     </main>
     <footer class="footer"> 
         <p class="pull-left">Just Natural 2022 -<span>Todos los derechos reservados.</span></p>
