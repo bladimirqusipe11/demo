@@ -4,6 +4,7 @@
 }
 
 body {
+	padding: 2px 3% 20px;
 	margin: 10;
 	margin-bottom: 20px;
 	background-size: cover;
@@ -40,7 +41,7 @@ html {
 
 /*index*/
 #primera-linea {
-	font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+	font-family:'Alfa Slab One', cursive;
 	color: #ffffff;
 	font-size: 25px;
 	font-weight: 40;
@@ -64,33 +65,7 @@ html {
 	margin-inline: auto;
 	max-inline-size: 48em;
 }
-
-
-
-.header {
-	padding: 10px;
-	text-align: baseline;
-	text-decoration: none;
-	box-shadow: inset 0 -1px 0 hsla(0, 0%, 100%, 0.4);
-	font-family: sans-serif;
-	font-size: 10px;
-	font-weight: 10;
-	position: relative;
-	bottom: 0;
-	width: 100%;
-	height: 40px;
-	width: 100%;
-	bottom: 0;
-	left: 0;
-	display: inline-block;
-	vertical-align: auto;
-	padding: 10px;
-	background: #f12711;
-	background: -webkit-linear-gradient(to right, #f5af19, #f12711);
-	background: linear-gradient(to right, #f5af19, #f12711);
-}
-
-.contenedor-de-imagenes {
+.contenedor-de-imagenes{
 	display: inline-block;
 	align-items: baseline;
 }
@@ -193,7 +168,7 @@ h1 {
 }
 
 .invitacion {
-	font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+	font-family: 'Alfa Slab One', cursive;
 	color: #ffffff;
 	font-size: 25px;
 	font-weight: 40;
@@ -216,7 +191,7 @@ div .logo-image {
 }
 
 .visitanos {
-	font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+	font-family: 'Alfa Slab One', cursive;
 	color: #070000;
 	font-size: 25px;
 	font-weight: 40;
@@ -252,7 +227,7 @@ div .logo-image {
 }
 
 .linea-nuestros-sabores {
-	font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+	font-family: 'Alfa Slab One', cursive;
 	color: #ffffff;
 	font-size: 25px;
 	font-weight: 40;
@@ -306,7 +281,7 @@ div .logo-image {
 
 /*sucursales.html*/
 .somos {
-	font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+	font-family: 'Alfa Slab One', cursive;
 	color: #ffffff;
 	font-size: 25px;
 	font-weight: 40;
@@ -323,7 +298,7 @@ div .logo-image {
 
 /*contacto*/
 div .formulario-de-contacto {
-	font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+	font-family: 'Alfa Slab One', cursive;
 	color: #ffffff;
 	font-size: 25px;
 	font-weight: 20;
@@ -339,7 +314,7 @@ div .formulario-de-contacto {
 }
 
 .caja-de-formulario {
-	font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+	font-family: 'Alfa Slab One', cursive;
 	color: #080000;
 	font-size: 25px;
 	font-weight: 20;
@@ -369,11 +344,7 @@ div .formulario-de-contacto {
 	margin: 5px;
 }
 
-/*preguntas fercuentes*/
-.cd-faq__items {
-	padding: 30px;
-}
-
+/*preguntas frecuentes*/
 /*footer*/
 footer.footer {
 	padding: 5px;
@@ -395,7 +366,7 @@ footer.footer {
 /*Large devices (desktops, less than 1200px)*/
 
 @media (max-width: 1199.98px) {
-	body {}
+
 }
 
 

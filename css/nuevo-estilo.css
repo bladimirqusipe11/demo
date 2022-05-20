@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  padding: 2px 3% 20px;
+  margin: 10;
+  margin-bottom: 20px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  position: absolute;
+  font-family: 'Lato', sans-serif;
+  font-weight: 10;
+  min-height: 100vh;
+  max-width: 100%;
+  padding-bottom: 3em; }
+  body body:after {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    opacity: .8;
+    z-index: -1;
+    background: #f12711;
+    background: -webkit-linear-gradient(to right, #f5af19, #f12711);
+    background: linear-gradient(to right, #f5af19, #f12711); }
+
+html {
+  min-height: 100%;
+  max-width: 100%;
+  position: relative; }
+
+.cd-faq__items {
+  padding: 30px; }
+
+.titulo {
+  font-family: 'Alfa Slab One', cursive;
+  color: #ffffff;
+  font-size: 25px;
+  font-weight: 40;
+  text-align: left;
+  background: #2b9521;
+  margin: 10 0 20 20px;
+  overflow: hidden;
+  padding: 20px;
+  border-radius: 15px 0px 35px 0px;
+  -moz-border-radius: 35px 0px 35px 0px;
+  -webkit-border-radius: 35px 0px 35px 0px;
+  border: 10px solid #1aa0a7; }
